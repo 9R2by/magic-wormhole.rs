@@ -38,7 +38,7 @@ use crypto::TransitHandshakeError;
 use transport::{TransitTransport, TransitTransportRx, TransitTransportTx};
 
 /// ULR to a default hosted relay server. Please don't abuse or DOS.
-pub const DEFAULT_RELAY_SERVER: &str = "tcp://transit.magic-wormhole.io:4001";
+pub const DEFAULT_RELAY_SERVER: &str = "tcp://localhost:4001";
 // No need to make public, it's hard-coded anyways (:
 // Open an issue if you want an API for this
 // Use <stun.stunprotocol.org:3478> for non-production testing
